@@ -1,0 +1,13 @@
+div{
+    height: 50px; 
+    padding: 10px;
+}
+#First-span,#second-span {
+    background-color: #a4dd9e;
+}
+#Third-span{
+    background-color:#72a3de ;
+}
+.details{
+    padding: 10px;
+}
