@@ -1,0 +1,103 @@
+* {
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#first-para {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: bolder;
+  font-size:small;
+  text-decoration:overline;
+  text-transform: capitalize;
+  line-height: 1.5em;
+  letter-spacing: 0.4em;
+}
+
+#second-para {
+  font-family: cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size:large;
+  text-decoration:underline;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  letter-spacing: 0.6em;
+}
+
+#third-para {
+  font-family: "Permanent Marker", cursive;
+  font-weight:bolder;
+  font-style: oblique;
+  font-size: small;
+  text-decoration: dashed;
+  text-transform: none;
+  line-height: 1.8em;
+  letter-spacing: 0.2em;
+}
+
+#fourth-para {
+  font-family: "Lavishly Yours";
+  font-weight: 400;
+  font-style: italic;
+  font-size: large;
+  text-decoration:line-through;
+  text-transform: lowercase;
+  line-height: 2em;
+  letter-spacing: 0.7em;
+}
+
+#fifth-para{
+  font-family: "Meie Script", cursive;
+  font-weight: 300;
+  font-style: oblique;
+  font-size: x-large;
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 1em;
+  letter-spacing: 1em;
+}
+a:visited{
+  color: blue;
+}
+
+#first-input:hover{
+  background-color: #87CEEB;
+}
+
+#first-para:hover{
+  background-color: blue;
+}
+
+#second-para:active{
+  background-color: aquamarine;
+}
+
+#second-input:active{
+  background-color: brown;
+}
+
+#third-para:hover{
+  background-color: orange;
+}
+
+#third-input:focus{
+  background-color: burlywood;
+}
+
+#fourth-para:hover{
+  background-color: blueviolet;
+}
+
+#fourth-input:hover{
+  background-color: goldenrod;
+}
+
+#fifth-para:active{
+  background-color: chartreuse;
+}
+
+#fifth-input:active{
+  background-color: blue;
+}
